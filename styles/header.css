@@ -14,11 +14,14 @@
     --bg: #ffffff;
     --search: #E0E1E3;
     --text: #1A1818;
+    --text-hover: #857a7a;
     --shadow: #00000029;
 
     --nav: white;
     --nav-hover: black;
 }
+
+/* ========== HEADER ========== */
 
 header {
     background-color: var(--header);
@@ -74,4 +77,69 @@ nav {
 
 .social a {
     padding: 0% 2.5%;
+}
+
+/* ========== HEADER ========== */
+
+/* ========== FILTERS ========== */
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeholder {
+    margin-right: auto;
+    width: 15%;
+}
+
+.filters__container {
+    justify-content: center;
+    width: 60%;
+    padding: 4% 0%;
+}
+
+.filters {
+    list-style: none;
+    text-align: center;
+}
+
+.filters li {
+    display: inline-block;
+    padding: 0% 3%;
+}
+
+.filters li a {
+    color: var(--text);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.filters li a:hover {
+    color: var(--text-hover);
+}
+
+.cart {
+    display: flex;
+    margin-left: auto;
+    justify-content:center;
+    width: 15%;
+}
+
+.cart img {
+    width: 14%;
+}
+
+.cart span {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0% 30%;
+}
+
+/* ========== FILTERS ========== */
+
+/.header2, .filters, .cart, .filters a, .placeholder {
+    border: solid black 1px;
 }

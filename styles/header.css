@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Here's all the colors for the whole page*/
+:root {
+    --header: #0E80C6;
+    --header-border: #707070;
+    --bg: #ffffff;
+    --search: #E0E1E3;
+    --text: #1A1818;
+    --shadow: #00000029;
+
+    --nav: white;
+    --nav-hover: black;
+}
+
+header {
+    background-color: var(--header);
+    border: 1px solid var(--header-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    cursor: pointer;
+    margin-right: auto;
+    padding: 0.3% 1%;
+}
+
+#logo img {
+    width: 75%;
+}
+
+nav {
+    justify-content: center;
+    width: 60%;
+    padding: 0% 1%;
+}
+
+.nav__links {
+    list-style: none;
+    text-align: center;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0% 7%;
+}
+
+.nav__links li a {
+    color: var(--nav);
+    font-size: 90%;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: var(--nav-hover);
+}
+
+.social {
+    width: 15%;
+    padding: 0% 1%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.social a {
+    padding: 0% 2.5%;
+}

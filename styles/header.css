@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -7,7 +7,9 @@
     box-sizing: border-box;
 }
 
+
 /* Here's all the colors for the whole page*/
+
 :root {
     --header: #0E80C6;
     --header-border: #707070;
@@ -16,10 +18,12 @@
     --text: #1A1818;
     --text-hover: #857a7a;
     --shadow: #00000029;
-
     --nav: white;
     --nav-hover: black;
+    --drop-bg: #f9f9f9;
+    --drop-hover: #f1f1f1;
 }
+
 
 /* ========== HEADER ========== */
 
@@ -79,11 +83,13 @@ nav {
     padding: 0% 2.5%;
 }
 
+
 /* ========== HEADER ========== */
+
 
 /* ========== FILTERS ========== */
 
-.header2 {
+.filters {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,37 +100,73 @@ nav {
     width: 15%;
 }
 
-.filters__container {
-    justify-content: center;
-    width: 60%;
-    padding: 4% 0%;
-}
 
-.filters {
-    list-style: none;
+/* DROPDOWN BUTTONS */
+
+.container {
+    justify-content: space-evenly;
     text-align: center;
+    width: 70%;
+    padding: 3% 0%;
 }
 
-.filters li {
-    display: inline-block;
-    padding: 0% 3%;
-}
-
-.filters li a {
+.dropbtn {
+    background-color: transparent;
     color: var(--text);
+    padding: 10% 30px;
+    font-size: 16px;
     font-weight: 500;
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
+    border: none;
+    cursor: pointer;
 }
 
-.filters li a:hover {
-    color: var(--text-hover);
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 165px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5% 10%;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.category:link {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--drop-hover);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: var(--drop-hover);
+}
+
+
+/* DROPDOWN BUTTONS */
 
 .cart {
     display: flex;
     margin-left: auto;
-    justify-content:center;
+    justify-content: center;
     width: 15%;
 }
 
@@ -135,11 +177,8 @@ nav {
 .cart span {
     font-size: 25px;
     font-weight: 500;
-    padding: 0% 30%;
+    padding: 0% 25%;
 }
+
 
 /* ========== FILTERS ========== */
-
-/.header2, .filters, .cart, .filters a, .placeholder {
-    border: solid black 1px;
-}

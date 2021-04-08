@@ -8,7 +8,7 @@ class searchBox extends HTMLElement {
         <div class="search-container">
           <div class="search-box">
             <input class="search-txt" type="text" placeholder="ITEM SEARCH">
-            <a class="search-btn" href="#"><img src="images/search.png" alt=""></a>
+            <a class="search-btn" href="#"><img src="../images/search.png" alt=""></a>
           </div>
         </div>
         `;

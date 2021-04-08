@@ -9,12 +9,12 @@
 
 
 /* Here's all the colors for the whole page*/
-
 :root {
     --header: #0E80C6;
     --header-border: #707070;
     --bg: #ffffff;
     --search: #E0E1E3;
+    --search-text: #808080;
     --text: #1A1818;
     --text-hover: #857a7a;
     --shadow: #00000029;
@@ -25,8 +25,8 @@
 }
 
 
-/* ========== HEADER ========== */
 
+/* ========== HEADER ========== */
 header {
     background-color: var(--header);
     border: 1px solid var(--header-border);
@@ -82,13 +82,11 @@ nav {
 .social a {
     padding: 0% 2.5%;
 }
-
-
 /* ========== HEADER ========== */
 
 
-/* ========== FILTERS ========== */
 
+/* ========== FILTERS ========== */
 .filters {
     display: flex;
     justify-content: space-between;
@@ -100,9 +98,7 @@ nav {
     width: 15%;
 }
 
-
 /* DROPDOWN BUTTONS */
-
 .container {
     justify-content: space-evenly;
     text-align: center;
@@ -128,7 +124,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: transparent;
+    background-color: white;
     min-width: 165px;
     z-index: 1;
 }
@@ -159,8 +155,6 @@ nav {
 .dropdown:hover .dropbtn {
     background-color: var(--drop-hover);
 }
-
-
 /* DROPDOWN BUTTONS */
 
 .cart {
@@ -170,15 +164,71 @@ nav {
     width: 15%;
 }
 
-.cart img {
-    width: 14%;
+.cart a img {
+    width: 70%;
 }
 
 .cart span {
     font-size: 25px;
     font-weight: 500;
-    padding: 0% 25%;
+    padding-right: 50%;
+    padding-left: 20%;
+}
+/* ========== FILTERS ========== */
+
+
+
+/* ========== SEARCH BAR ========== */
+
+.search-box {
+    position: absolute;
+    top: 27%;
+    left: 42%;
+    background: var(--search);
+    height: 35px;
+    border-radius: 100vh;
+    transition: 0.3s ease 0s;
 }
 
+.search-box:hover {
+    transform: translate(-15px, 0);
+    transition: 0.3s ease 0s;
+}
 
-/* ========== FILTERS ========== */
+.search-btn {
+    float: left;
+    height: 35px;
+    width: 35px;
+    border-radius: 100vh;
+    background: var(--search);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-btn img {
+    width: 40%;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: right;
+    padding: 0;
+    color: var(--search-text);
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.3s ease 0s;
+    line-height: 37px;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.search-box:hover > .search-txt {
+    width: 230px;
+    padding: 0 10px;
+    transition: 0.3s ease 0s;
+}
+
+/* ========== SEARCHBAR ========== */

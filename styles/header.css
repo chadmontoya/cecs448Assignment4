@@ -180,17 +180,22 @@ nav {
 
 /* ========== SEARCH BAR ========== */
 
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .search-box {
-    position: absolute;
-    top: 27%;
-    left: 42%;
     background: var(--search);
     height: 35px;
     border-radius: 100vh;
     transition: 0.3s ease 0s;
+    width: 300px;
 }
 
 .search-box:hover {
+    width: 350px;
     transform: translate(-15px, 0);
     transition: 0.3s ease 0s;
 }

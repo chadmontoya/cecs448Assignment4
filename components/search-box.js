@@ -5,9 +5,11 @@ class searchBox extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <div class="search-box">
+        <div class="search-container">
+          <div class="search-box">
             <input class="search-txt" type="text" placeholder="ITEM SEARCH">
             <a class="search-btn" href="#"><img src="images/search.png" alt=""></a>
+          </div>
         </div>
         `;
 

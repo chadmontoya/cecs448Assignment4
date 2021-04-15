@@ -65,6 +65,38 @@
   font-size: 100px;
 }
 
+.featured-title {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.item-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.item-name {
+  font-weight: 500;
+}
+
+.item-desc {
+  color: rgb(136, 133, 133);
+}
+
+.item-price {
+  font-weight: 850;
+}
+
 @media only screen and (max-width: 970px) {
   .ebay-title {
     font-size: 70px;

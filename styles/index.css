@@ -1,0 +1,87 @@
+
+.carousel-banner {
+  max-width: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: -22px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.ebay-slide {
+  background-color: #EE7115;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.ebay-title {
+  color: white;
+  font-size: 90px;
+  padding-top: 30px;
+}
+
+.ebay-logo {
+  padding-top: 20px;
+  width: 450px;
+  height: 180px;
+}
+
+.ebay-desc {
+  color: white;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.discount-slide {
+  background-color: #0E80C6;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount-title {
+  color: white;
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 970px) {
+  .ebay-title {
+    font-size: 70px;
+    padding-top: 30px;
+  }
+  
+  .ebay-logo {
+    padding-top: 20px;
+    width: 400px;
+    height: 150px;
+  }
+  
+  .ebay-desc {
+    font-size: 40px;
+  }
+
+  .discount-title {
+    font-size: 80px;
+  }
+}

@@ -97,6 +97,18 @@
   font-weight: 850;
 }
 
+/* Fade for carousel slides */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+/* Fading animation */
+@keyframes fade {
+  from {opacity: .4} /* Opaque to Clear for Fade Effect */
+  to {opacity: 1}
+}
+
 @media only screen and (max-width: 970px) {
   .ebay-title {
     font-size: 70px;
@@ -111,6 +123,27 @@
   
   .ebay-desc {
     font-size: 40px;
+  }
+
+  .discount-title {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .ebay-title {
+    font-size: 50px;
+    padding-top: 30px;
+  }
+  
+  .ebay-logo {
+    padding-top: 20px;
+    width: 370px;
+    height: 150px;
+  }
+  
+  .ebay-desc {
+    font-size: 25px;
   }
 
   .discount-title {

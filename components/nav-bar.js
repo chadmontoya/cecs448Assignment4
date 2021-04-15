@@ -108,7 +108,7 @@ class navBar extends HTMLElement {
             <!-- DROPDOWN MENU -->
 
             <div class="cart">
-                <a href="#"><img src="../images/bag.png" alt="bag"></a>
+                <a href="bag.html"><img src="../images/bag.png" alt="bag"></a>
                 <span>$0</span>
             </div>
         </div>

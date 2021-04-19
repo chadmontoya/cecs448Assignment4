@@ -35,7 +35,7 @@ h1 {
     color: #1A1818;
 }
 
-button {
+.add-button {
     width: 240px;
     height: 56px;
     background: #FFFFFF 0% 0% no-repeat padding-box;

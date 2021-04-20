@@ -46,6 +46,11 @@ h1 {
   outline: none;
 }
 
+.action-button:hover {
+  background: #c7c7c7;
+  transition: .7s;  
+}
+
 .add-button:hover {
   background: #c7c7c7;
   transition: .7s;

@@ -9,10 +9,10 @@ class navBar extends HTMLElement {
         <a href="index.html" id="logo"><img src="../images/pondon.png" alt="logo"></a>
         <nav>
             <ul class="nav__links">
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="discount.html">DISCOUNT</a></li>
                 <li><a href="pre-order.html">PRE-ORDER</a></li>
                 <li><a href="inquiry.html">INQUIRY</a></li>
-                <li><a href="link.html">LINK</a></li>
             </ul>
         </nav>
         <div class="social">

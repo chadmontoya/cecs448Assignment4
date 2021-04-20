@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Here's all the colors for the whole page*/
+:root {
+    --header: #0E80C6;
+    --box-shadow: #00000029;
+}
+
+.payment-methods {
+    background: white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px var(--box-shadow);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: 50px;
+    max-width: 160px;
+    min-height: 100px;
+    top: 0;
+    opacity: 1;
+    padding-bottom: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: center;
+    top: 80vh;
+    z-index: 100;
+}
+
+.payments {
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.payment-methods p {
+    font-size: 10px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.payments img {
+    max-width: 50px;
+    max-height: 30px;
+    padding: 5px;
+}

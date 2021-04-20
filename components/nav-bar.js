@@ -6,7 +6,7 @@ class navBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <header>
-        <a href="index.html" id="logo"><img src="../images/pondon.png" alt="logo"></a>
+        <a href="index.html" id="logo"><img src="images/pondon.png" alt="logo"></a>
         <nav>
             <ul class="nav__links">
                 <li><a href="index.html">HOME</a></li>
@@ -16,10 +16,10 @@ class navBar extends HTMLElement {
             </ul>
         </nav>
         <div class="social">
-            <a href="https://www.ebay.com"><img src="..//images//ebay-icon.png" alt="ebay"></a>
-            <a href="https://www.facebook.com"><img src="..//images//social//facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com"><img src="..//images//social//instagram.png" alt="instagram"></a>
-            <a href="https://www.twitter.com"><img src="..//images//social//twitter.png" alt="twitter"></a>
+            <a href="https://www.ebay.com"><img src="images//ebay-icon.png" alt="ebay"></a>
+            <a href="https://www.facebook.com"><img src="images//social//facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com"><img src="images//social//instagram.png" alt="instagram"></a>
+            <a href="https://www.twitter.com"><img src="images//social//twitter.png" alt="twitter"></a>
         </div>
         </header>
 
@@ -112,9 +112,9 @@ class navBar extends HTMLElement {
             <!-- DROPDOWN MENU -->
 
             <div class="cart">
-                <a href="bag.html"><img src="../images/bag.png" alt="bag"></a>
+                <a href="bag.html"><img src="images/bag.png" alt="bag"></a>
                 <span>$0</span>
-                <a href="profile.html"><img src="../images/person.png" alt="person"></a>
+                <a href="profile.html"><img src="images/person.png" alt="person"></a>
             </div>
         </div>
 

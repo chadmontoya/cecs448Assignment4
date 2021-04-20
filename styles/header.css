@@ -159,6 +159,7 @@ nav {
 
 .cart {
     display: flex;
+    flex-wrap: wrap; /* when window gets too small, stack the images in the cart div */
     margin-left: auto;
     justify-content: center;
     width: 15%;
@@ -171,8 +172,8 @@ nav {
 .cart span {
     font-size: 25px;
     font-weight: 500;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 /* ========== FILTERS ========== */
 

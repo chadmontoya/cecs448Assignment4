@@ -1,0 +1,97 @@
+/* styling for headers on profile */
+h1 {
+  padding-top: 30px;
+  text-align: center;
+  font: normal normal medium 42px/56px Futura;
+  letter-spacing: 0px;
+  color: #1A1818;
+  opacity: 1;
+}
+
+.profile-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+}
+
+/* profile image */
+.profile-img {
+  height: 144px;
+  width: 144px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-container {
+  margin-left: 30px;
+}
+
+.username {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+}
+
+.member-date {
+  color: rgb(136, 133, 133);
+  letter-spacing: 1.4px;
+}
+
+.item-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.item-name {
+  font-weight: 500;
+}
+
+.item-desc {
+  color: rgb(136, 133, 133);
+}
+
+.order-number {
+  font-weight: 950;
+}
+
+.item-price {
+  font-weight: 950;
+}
+
+.view-button {
+  width: 240px;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 3px solid #E0E1E3;
+  border-radius: 25px;
+  opacity: 1;
+  cursor: pointer;
+  outline: none;
+}
+
+.view-button:hover {
+  background: #c7c7c7;
+  transition: .7s;
+}
+
+.button-container {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-picks {
+  margin-top: 50px;
+}

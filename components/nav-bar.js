@@ -110,7 +110,7 @@ class navBar extends HTMLElement {
             <div class="cart">
                 <a href="bag.html"><img src="../images/bag.png" alt="bag"></a>
                 <span>$0</span>
-                <a href=""><img src="../images/person.png" alt="person"></a>
+                <a href="profile.html"><img src="../images/person.png" alt="person"></a>
             </div>
         </div>
 

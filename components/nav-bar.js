@@ -33,12 +33,13 @@ class navBar extends HTMLElement {
                     <button class="dropbtn">MEN'S</button>
                     <div class="dropdown-content">
                         <a href="#" class="category">CATEGORY</a>
-                        <a href="#">MEN'S SYNTHETIC</a>
                         <a href="#">SHIRTS</a>
                         <a href="#">PANTS</a>
                         <a href="#">CREWNECK/HOODIE</a>
                         <a href="#">JACKETS</a>
-                        <a href="#">LEATHER SNEAKER</a>
+                        <a href="#">SHOES</a>
+                        <a href="#">SOCKS</a>
+                        <a href="#">MEN'S SYNTHETIC</a>
                     </div>
                 </div>
                 <div class="dropdown">
@@ -77,20 +78,23 @@ class navBar extends HTMLElement {
                     <button class="dropbtn">TOYS</button>
                     <div class="dropdown-content">
                         <a href="#" class="category">CATEGORY</a>
-                        <a href="#">GLASSES</a>
-                        <a href="#">SHIRTS</a>
-                        <a href="#">PANTS</a>
-                        <a href="#">SHOES</a>
+                        <a href="#">FIGURES</a>
+                        <a href="#">DOLLS</a>
+                        <a href="#">SKATEBOARDS</a>
+                        <a href="#">CUSHIONS</a>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">BRAND</button>
                     <div class="dropdown-content">
                         <a href="#" class="category">CATEGORY</a>
-                        <a href="#">GLASSES</a>
-                        <a href="#">SHIRTS</a>
-                        <a href="#">PANTS</a>
-                        <a href="#">SHOES</a>
+                        <a href="#">APE</a>
+                        <a href="#">BBC</a>
+                        <a href="#">NIKE</a>
+                        <a href="#">ADIDAS</a>
+                        <a href="#">SUPREME</a>
+                        <a href="#">COMME DES GARCONS</a>
+                        <a href="#">MASTERMIND JAPAN</a>
                     </div>
                 </div>
                 <div class="dropdown">
